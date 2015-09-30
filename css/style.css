@@ -61,6 +61,10 @@ h1 {
     font-size: 65px;
     color: #2d3033;
 }
+h3, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
 
 
 .ba-container {
@@ -274,4 +278,19 @@ color: #e84545;
     text-align: center;
     width: 40px;
 }
+.social-icons li a:hover{
+    background-color: #e84545;
+    border-color: #e84545;
+    color: #fff;
+}
 
+
+
+.ba-footer-top {
+background-color: #3a3e64;
+    padding-top: 50px;
+}
+.ba-footer-bottom {
+    background-color: #313454;
+    padding: 20px 0;
+}
