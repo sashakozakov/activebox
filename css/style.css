@@ -225,10 +225,8 @@ min-height: 350px;*/
      box-shadow: 0 0 0 1px #fff;*/
 	    overflow: hidden;
 }
-.ba-grid-gallery .ba-width-1-4 img {
--webkit-background-size: cover;
-     -o-background-size: cover;
-        background-size: cover;
+.ba-grid-gallery  img {
+dispaly:block;
 }
 
 
