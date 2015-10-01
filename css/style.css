@@ -212,7 +212,8 @@ padding: 15px;
 
 /*ba-grid-gallery*/
 .ba-grid-gallery {
-padding-bottom: 50px;
+padding-top: 70px;
+padding-bottom: 70px;
 }
 
 .ba-grid-gallery .ba-grid > [class*="ba-width-"] {
@@ -226,11 +227,14 @@ min-height: 350px;*/
 	    overflow: hidden;
 }
 .ba-grid-gallery  img {
-dispaly:block;
+display:block;
 }
 
 
 /*ba-people*/
+.ba-people {
+padding-bottom: 70px;
+}
 .ba-people__item {
 padding: 0 0px;
 }
@@ -257,6 +261,13 @@ color: #e84545;
 	text-align: justify;
 }
 
+
+/*Social icons*/
+
+.ba-social {
+padding-top: 20px;
+padding-bottom: 20px;
+}
 .social-icons li {
 	float: left;
     list-style: none;
@@ -283,12 +294,96 @@ color: #e84545;
 }
 
 
+/*Slider*/
+.ba-slider .ba-grid {
+    background-color: #53354a;
+}
+.ba-slider blockquote {
+        padding: 100px 15% 0;
+}
+.ba-slider blockquote p {
+color: #fff;
+font: italic 36px "Cardo", Georgia, "Times New Roman", serif;
+}
+.ba-slider blockquote cite {
+color: #fff;
+    display: block;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.ba-slider img {
+display: block;
+width: 100%;
+}
 
+/*ba-download*/
+.ba-download {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.ba-download__title {
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+}
+.ba-download__p {
+    color: #2d3033;
+    font-weight: 600;
+    text-transform: uppercase;
+        font-size: 14px;
+    line-height: 22.4px;
+padding-bottom: 50px;
+}
+
+
+
+/*Footer*/
 .ba-footer-top {
 background-color: #3a3e64;
     padding-top: 50px;
+    padding-bottom: 70px;
 }
+.ba-footer-top h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+.ba-footer-top p {
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+    line-height: 22.4px;
+}
+.ba-footer-top .social-icons{
+    margin: 0 auto;
+    width: 200px;
+    }
+.ba-footer-top .social-icons li a{
+border:2px solid #fff;
+margin: 0 5px;
+}
+
+
 .ba-footer-bottom {
     background-color: #313454;
     padding: 20px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.ba-footer-bottom .fa-heart {
+    color: #e84545;
+    font-size: 11px;
+    margin: 0 2px;
+}
+.ba-footer-bottom a {
+    color: #FFF;
+}
+..ba-footer-bottom a:active{
+color: #FF0F;
+}
+.ba-footer-bottom .ba-text-center {
+    line-height: 1.5;
 }
